@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-semibold;
+  }
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  label {
+    @apply cursor-pointer;
+  }
+  input[type="radio"],
+  input[type="checkbox"] {
+    @apply cursor-pointer;
+  }
+  h3 b {
+    @apply font-normal;
+  }
+  section ul {
+    @apply list-disc space-y-1 pl-4;
+  }
+
+  section ol {
+    @apply list-decimal space-y-1 pl-4;
+  }
+}
+
+* {
+  font-family: arial, sans-serif;
+}

@@ -1,0 +1,504 @@
+{
+  "featuredSnippets": [
+    {
+      "topic": "propertyRights",
+      "id": 605,
+      "title": "Why Intellectual Property is Important for You; Your Business ...",
+      "text": "<strong>Owning intellectual property helps you protect from others</strong> using something identical or similar to your creation, brand or product, and can also create new sources of revenue should you desire to license your goods or services out to third parties. Without protection, you could end up spending a lot more money in defending against someone else or even rebranding, and miss out on commercial opportunities.",
+      "stance": 3,
+      "logic": "neutral",
+      "url": "https://www.inc.com/darren-heitner/why-intellectual-property-is-important-for-your-business-what-you-should-be-doing-now-to-protect-it.html",
+      "credibility": 2,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "propertyRights",
+      "id": 701,
+      "title": "10 Intellectual Property Rights and Competitive Strategy - The …",
+      "text": "A patent is something like an insurance policy against theft. One does not absolutely need it, for perhaps nothing will be stolen, but if one does need it and has not got it, then the experience is usually a painful one. If the probability is great that something may be stolen, then it is best to insure oneself against the risk of loss. <strong>If, however, this theft is not prevented by legal protection of intellectual property then the injured party will lose the bulk of expected return on investment </strong>, which is needed in order to survive.",
+      "stance": 3,
+      "logic": "negative",
+      "url": "https://www.nap.edu/read/2054/chapter/20",
+      "credibility": 2,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "propertyRights",
+      "id": 879,
+      "title": "Why <b>Are Intellectual Property Rights Important</b>? | The ...",
+      "text": "<strong>Intellectual property (IP) contributes enormously to our national and state economies </strong>. Dozens of industries across our economy rely on the adequate enforcement of their patents, trademarks, and copyrights, while consumers use IP to ensure they are purchasing safe, guaranteed products. We believe IP rights are worth protecting, both domestically and abroad.",
+      "stance": 3,
+      "logic": "positive",
+      "url": "https://www.theglobalipcenter.com/why-are-intellectual-property-rights-important/",
+      "credibility": 2,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "propertyRights",
+      "id": 221,
+      "title": "Should we respect patents or people? - Health GAP",
+      "text": "The problem is that patent-holding corporations use this 20-year period to <strong>prevent competition and charge whatever price they feel like</strong> for medicines. For profit hungry pharma, this means setting unjustifiably high prices to make huge profits. Only after the patent ends and more competitors enter the market do prices eventually fall. Countless lives are lost waiting for this process to unfold.",
+      "stance": -3,
+      "logic": "negative",
+      "url": "https://www.healthgap.org/should-we-respect-patents-or-people/",
+      "credibility": 2,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "propertyRights",
+      "id": 704,
+      "title": "It’s time to <b>consider a patent reprieve for COVID vaccines</b>",
+      "text": "This is why around 100 countries, led by India and South Africa, are asking fellow World Trade Organization members to agree a time-limited lifting of COVID-19-related intellectual-property (IP) rights. The main vaccine suppliers, they argue, should share their knowledge so that more countries can start producing vaccines for their own populations and for the lowest-income nations. This idea needs to be considered seriously because <strong>a temporary IP waiver could have a role in accelerating the end of the pandemic.</strong>",
+      "stance": -3,
+      "logic": "neutral",
+      "url": "https://www.nature.com/articles/d41586-021-00863-w",
+      "credibility": 2,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "propertyRights",
+      "id": 146,
+      "title": "Against intellectual property, by Brian Martin - UOW",
+      "text": "In a society without intellectual property, creativity is likely to thrive. The soundest foundation for a society <strong>without intellectual property is greater economic and political equality</strong>. This means not just equality of opportunity, but equality of outcomes. This does not mean uniformity and does not mean levelling imposed from the top: it means freedom and diversity and a situation where people can get what they need.",
+      "stance": -3,
+      "logic": "positive",
+      "url": "https://documents.uow.edu.au/~bmartin/pubs/95psa.html",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 960,
+      "title": "Why School Dress Codes Need to Be Abolished",
+      "text": "In districts in Oregon, Seattle, and California, schools have been experimenting with abolishing most rules about dressing. They follow a model developed by the Oregon National Organization for Women in 2016. <strong>The model places a higher value on student self-expression and comfort than on “unnecessary discipline or body shaming,”</strong> and it frees educators to focus on teaching instead of enforcing rules.",
+      "stance": -3,
+      "logic": "neutral",
+      "url": "https://www.yahoo.com/lifestyle/why-school-dress-codes-abolished-140029007.html",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 883,
+      "title": "Britain's obsession with school uniform reinforces social ...",
+      "text": "<strong>Uniform policies reinforce gender and racial divisions as well as class ones</strong>, as racist hairstyle policies, sexist skirt rules, the sexual fetishisation of girls’ uniforms (a third of girls say they have been sexually harassed while wearing their uniforms), and the discrimination faced by trans pupils all illustrate.",
+      "stance": -3,
+      "logic": "negative",
+      "url": "https://www.theguardian.com/commentisfree/2020/sep/05/britain-school-uniform-reinforces-social-divisions-children",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 509,
+      "title": "<b>How school uniforms impact mental health</b> - Counselling ...",
+      "text": "Picking out my own clothes and <strong>being free to express myself, gave me a sense of confidence</strong> I didn’t know I had. It signalled a chance for me to reinvent myself, away from the uniform I associated with so much pain. I was given a chance to be unique and explore who I was, out of my uniform. It was freeing for me.",
+      "stance": -3,
+      "logic": "positive",
+      "url": "https://www.counselling-directory.org.uk/blog/2018/09/03/school-uniforms-mental-health",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 350,
+      "title": "Highlighting Uniforms contribution to children's wellbeing",
+      "text": "The study by Family Kids and Youth revealed fascinating insights into how <strong>uniform helps to reduce children’s anxiety about their appearance</strong> and fitting in with their peers, as one Year Nine student told the researchers: “With uniform, you can’t be judged. Without uniform, everyone would be competing about what the style is, what the trend is, what you need to wear. I think there’d be more bullying as well and it would be more stress in the morning.”",
+      "stance": 3,
+      "logic": "positive",
+      "url": "https://www.schoolwearassociation.co.uk/highlighting-uniforms-contribution-to-childrens-wellbeing/",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 311,
+      "title": "9 Impressive Benefits of School Uniforms - Pear Tree …",
+      "text": "When <strong>schools allow children to wear their own clothes to attend school, this creates the need for a long list of unacceptable clothing variations</strong> that staff must check for every day. Such dress codes are often harsher for girls than for boys, with everything from skirt lengths to shoulder straps coming under scrutiny. What’s more, enforcing dress code policies often means sending children to the office for administrators to determine whether they’ve violated the code or not. Not only does this create an atmosphere of distrust and defiance within the school, but it also wastes a lot of everyone’s time.",
+      "stance": 3,
+      "logic": "negative",
+      "url": "https://www.peartree.school/9-impressive-benefits-of-school-uniforms/",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 935,
+      "title": "Why do children have to wear school uniforms? - Wales Online",
+      "text": "There’s a number of reasons why most schools - though there are some that don’t - insist that their pupils wear uniforms. One reason, they say, is that <strong>it helps to create cohesion among pupils and reduces the risk of bullying</strong>. If everyone’s wearing the same clothes, the argument goes, they don’t have to worry about other kids making fun of their clothing.",
+      "stance": 3,
+      "logic": "neutral",
+      "url": "https://www.walesonline.co.uk/news/education/children-wear-school-uniforms-21448440",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "obesity",
+      "id": 43568,
+      "title": "Obesity Is A Choice Not A Disease | Dr Joe Today",
+      "text": "Embracing a healthy lifestyle through nourishing foods, regular physical activity, and maintaining a body weight within the BMI range of 20 to 30 contributes significantly to your well-being. <strong>Obesity is not in any way, shape or form a disease</strong>. It is the end result of an energy imbalance over a period of time and the good news being that it is completely reversible by reversing the energy imbalance, making it a choice not a disease.",
+      "stance": -3,
+      "logic": "positive",
+      "url": "https://www.drjoetoday.com/obesity-is-a-choice-not-a-disease/",
+      "credibility": 1,
+      "source": "SIGIR 21"
+    },
+    {
+      "topic": "obesity",
+      "id": 52938,
+      "title": "Obesity isn't a disease. Here's why",
+      "text": "I’m asserting that <strong>obesity isn’t a disease. It’s just another way the body has to tell us that something’s wrong.</strong> I believe as physicians we must first identify the individual metabolic processes that have caused the weight gain, and then correct them.The American Medical Association states—and I agree—that “obesity is a multi-metabolic and hormonal state.",
+      "stance": -3,
+      "logic": "neutral",
+      "url": "https://www.doctorjeffreybrown.com/diet/a-year-ago-millions-of-north-americans-contracted-a-brand-new-disease-they-already-had-obesity/",
+      "credibility": 1,
+      "source": "SIGIR 21"
+    },
+    {
+      "topic": "obesity",
+      "id": 66888,
+      "title": "Obesity Not a Disease, AMA Council Says | MedPage Today",
+      "text": "Patients blame obesity on the government, cunning food manufacturers, their parents and their genes. There’s not much demand for hard truths. America has severe obesity problems, and seems resigned to them. Doctors should be required to tell patients a blunt truth: if you’re fat, eat less, exercise more, or both. And if you keep guzzling the tasty treats, you will die earlier. <strong>It’s not a disease, it’s a mindset — and that means it can be changed.</strong>",
+      "stance": -3,
+      "logic": "negative",
+      "url": "https://www.spectator.co.uk/article/obesity-is-not-a-disease/",
+      "credibility": 1,
+      "source": "SIGIR 21"
+    },
+    {
+      "topic": "obesity",
+      "id": 95248,
+      "title": "Experts define obesity as a disease - Medical News Today",
+      "text": "In a consensus statement published in the journal Obesity Reviews, experts from the World Obesity Federation make the case for defining obesity as a disease process. They argue that, <strong>by recognizing the primary agent as food rather than an infectious microbe, it fits a widely-accepted model of disease.</strong>",
+      "stance": 3,
+      "logic": "neutral",
+      "url": "https://www.medicalnewstoday.com/articles/317442",
+      "credibility": 1,
+      "source": "SIGIR 21"
+    },
+    {
+      "topic": "obesity",
+      "id": 30001,
+      "title": "Jamie Oliver is wrong – obesity is not just about diet …",
+      "text": "<strong>Recognizing obesity as a disease, gives us access to treatment methods</strong>. At ukactive, we champion the physical, mental and social benefits that come from an active, healthy life. I have seen first hand the vital role that the physical activity sector – with its widespread workforce of coaches, youth workers, activity professionals, play workers, health mentors and community activators – has in helping to tackle childhood obesity.",
+      "stance": 3,
+      "logic": "positive",
+      "url": "https://www.theguardian.com/commentisfree/2018/apr/30/jamie-oliver-childhood-obesity-strategy-ignore-physical-activity-mental-health",
+      "credibility": 1,
+      "source": "SIGIR 21"
+    },
+    {
+      "topic": "obesity",
+      "id": 76861,
+      "title": "Opinion: Obesity should be viewed as a disease | Montreal …",
+      "text": "But obesity is not just a condition that accelerates aging: <strong>obesity should be viewed as a disease that accelerates aging</strong>. Obesity clearly changes the function of body systems resulting in adverse health outcomes. According to the World Health Organization, deaths worldwide from obesity and being overweight are more common than deaths from being underweight.",
+      "stance": 3,
+      "logic": "negative",
+      "url": "https://montrealgazette.com/opinion/opinion-obesity-should-be-viewed-as-a-disease",
+      "credibility": 1,
+      "source": "SIGIR 21"
+    }
+  ],
+  "regularSnippets": [
+    {
+      "topic": "propertyRights",
+      "id": 605,
+      "title": "Why Intellectual Property is Important for You; Your Business ...",
+      "text": "Why Intellectual Property is Important for Your Business and What You Should be Doing Now to Protect It The U.S. Patent and Trademark Office received 440,768 new trademark applications in 2017.",
+      "stance": 3,
+      "url": "https://www.inc.com/darren-heitner/why-intellectual-property-is-important-for-your-business-what-you-should-be-doing-now-to-protect-it.html",
+      "credibility": 2,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "propertyRights",
+      "id": 221,
+      "title": "Should we respect patents or people? - Health GAP",
+      "text": "26 okt. 2018 — The intellectual property (IP) system WIPO so wants the African continent to respect plays no small role in helping big pharma hold patients and...",
+      "stance": -3,
+      "url": "https://www.healthgap.org/should-we-respect-patents-or-people/",
+      "credibility": 2,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "propertyRights",
+      "id": 701,
+      "title": "10 Intellectual Property Rights and Competitive Strategy - The …",
+      "text": "If the painter or inventor is no longer able to make a profit from his paintings or inventions, then he will stop painting or carrying out research and seek...",
+      "stance": 3,
+      "url": "https://www.nap.edu/read/2054/chapter/20",
+      "credibility": 2,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "propertyRights",
+      "id": 704,
+      "title": "It’s time to <b>consider a patent reprieve for COVID vaccines</b>",
+      "text": "This is why around 100 countries, led by India and South Africa, are asking fellow World Trade Organization members to agree a time-limited lifting of COVID-19-related intellectual property (IP ...",
+      "stance": -3,
+      "url": "https://www.nature.com/articles/d41586-021-00863-w",
+      "credibility": 2,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "propertyRights",
+      "id": 879,
+      "title": "Why <b>Are Intellectual Property Rights Important</b>? | The ...",
+      "text": "Intellectual property (IP) contributes enormously to our national and state economies. Dozens of industries across our economy rely on the adequate enforcement of their patents, trademarks, and copyrights, while consumers use IP to ensure they are purchasing safe, guaranteed products. We believe IP rights are worth protecting, both domestically and abroad.",
+      "stance": 3,
+      "url": "https://www.theglobalipcenter.com/why-are-intellectual-property-rights-important/",
+      "credibility": 2,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "propertyRights",
+      "id": 146,
+      "title": "Against intellectual property, by Brian Martin - UOW",
+      "text": "door B Martin · 1996 · Geciteerd door 6 — As noted by Hettinger and as will be discussed in the next section, markets only work once property rights have been established, so it is circular to argue...",
+      "stance": -3,
+      "url": "https://documents.uow.edu.au/~bmartin/pubs/95psa.html",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "propertyRights",
+      "id": 482,
+      "title": "Tips to Avoid <b>Intellectual Property</b> Infringement ...",
+      "text": "<b>Intellectual property</b> (IP) <b>rights</b> are not always ... Failure to <b>respect</b> IP <b>rights</b> can have ... or are facing the threat of litigation related to <b>intellectual property</b>, <b>should</b> speak with an ...",
+      "stance": 1,
+      "url": "https://www.businessnewsdaily.com/6043-intellectual-property-tips.html",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "propertyRights",
+      "id": 649,
+      "title": "The Complications Around Patenting Biotechnology",
+      "text": "A strong <b>intellectual</b> <b>property</b> position also minimizes risk for investors, and can determine whether they will invest in a particular biotechnology company <b>or not</b>. Patents demonstrate that a biotech company has the freedom to commercialize its product without infringing on the <b>intellectual</b> <b>property</b> <b>rights</b> of other companies, and preventing others from selling the same invention for a certain ...",
+      "stance": -1,
+      "url": "https://www.labiotech.eu/in-depth/biotechnology-patents-intellectual-property/",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "propertyRights",
+      "id": 101,
+      "title": "Protecting your IP rights - Business.gov.nl",
+      "text": "Intellectual property (IP) rights provide IP owners with the time and opportunity ... of different copyrights may exist in some works - particularly films, ...",
+      "stance": 1,
+      "url": "https://business.gov.nl/running-your-business/products-and-services/protecting-your-product-idea-or-innovation/ip-rights/",
+      "credibility": 2,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "propertyRights",
+      "id": 501,
+      "title": "U.S. backs waiving patent protections for Covid vaccines ...",
+      "text": "Closing Bell. WASHINGTON -- The Biden administration announced Wednesday that it supports waiving <b>intellectual</b> <b>property</b> protections for Covid-19 vaccines, as countries struggle to manufacture the ...",
+      "stance": -1,
+      "url": "https://www.cnbc.com/2021/05/05/us-backs-covid-vaccine-intellectual-property-waivers-to-expand-access-to-shots-worldwide.html",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 960,
+      "title": "Why School Dress Codes Need to Be Abolished",
+      "text": "Let the administration know that your top priority is that the school is a place of learning and acceptance, not of molding little humans into some uniform ideal. They may even pay more attention ...",
+      "stance": -3,
+      "url": "https://www.yahoo.com/lifestyle/why-school-dress-codes-abolished-140029007.html",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 350,
+      "title": "Highlighting Uniforms contribution to children's wellbeing",
+      "text": "door J Rodriguez · 2005 · Geciteerd door 3 — The uniforms are being promoted in several ways. ... implements school uniforms with good results, it spreads to nearby schools and the...",
+      "stance": 3,
+      "url": "https://www.schoolwearassociation.co.uk/highlighting-uniforms-contribution-to-childrens-wellbeing/",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 883,
+      "title": "Britain's obsession with school uniform reinforces social ...",
+      "text": "5 sep. 2020 — Other countries don't feel the need to strip children of their ... got into grammar school but didn't go because her foster “family” (I use...",
+      "stance": -3,
+      "url": "https://www.theguardian.com/commentisfree/2020/sep/05/britain-school-uniform-reinforces-social-divisions-children",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 311,
+      "title": "9 Impressive Benefits of School Uniforms - Pear Tree …",
+      "text": "They will not have to worry what their kids have to wear for school for months or even years. Equality. Wearing uniforms at school promotes equality in students...",
+      "stance": 3,
+      "url": "https://www.peartree.school/9-impressive-benefits-of-school-uniforms/",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 509,
+      "title": "<b>How school uniforms impact mental health</b> - Counselling ...",
+      "text": "How school uniforms impact mental health. By Katherine Nicholls, writer at Counselling Directory. Published on September 3rd, 2018. Studies looking into the impact of school uniforms on mental health have shown, for the most part, that they are indeed beneficial. A study commissioned by the Schoolwear Association involved a number of student ...",
+      "stance": -3,
+      "url": "https://www.counselling-directory.org.uk/blog/2018/09/03/school-uniforms-mental-health",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 935,
+      "title": "Why do children have to wear school uniforms? - Wales Online",
+      "text": "Proponents: Uniforms don't cost a fortune. And also, no school persuades pupils to buy one of an expensive brand. Opponents: Most parents want quality education...",
+      "stance": 3,
+      "url": "https://www.walesonline.co.uk/news/education/children-wear-school-uniforms-21448440",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 881,
+      "title": "Wearing a school uniform doesn't help us learn | Emma Jacobs",
+      "text": "Uniforms may work for police officers, soldiers and neo-Nazis, but they have no place in schools. The Bradford kids should wear what they...",
+      "stance": -1,
+      "url": "https://www.theguardian.com/commentisfree/2014/nov/07/wearing-school-uniform-doesnt-help-us-learn",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 122,
+      "title": "<b>Controversy: The True Effectiveness of School Uniforms</b> ...",
+      "text": "They looked into a <b>school</b> with an optional <b>school</b> <b>uniform</b> policy in New Hampshire, the <b>school</b>, Highland-Goffeâ€™s Falls Elementary <b>School</b>, stated that the few students that did not wear <b>uniform</b>, had a harder time <b>being</b> able to transfer the students into other <b>schools</b> where they could wear what they wanted, \"We had seven very negative parents out of 454 families,\" says Paul.",
+      "stance": 1,
+      "url": "https://commons.trincoll.edu/edreform/2019/05/controversy-the-true-effectiveness-of-school-uniforms/",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 876,
+      "title": "Does wearing a school uniform improve student behavior?",
+      "text": "School uniforms reduce clothing-related peer pressure. ... these policies work to prevent some of the common reasons why students target one another or the...",
+      "stance": -1,
+      "url": "https://www.theedadvocate.org/does-wearing-a-school-uniform-improve-student-behavior/",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "schoolUniforms",
+      "id": 253,
+      "title": "School uniforms: Do they really improve student achievement",
+      "text": "The researchers found that the highest-performing students are the most disciplined. In addition, for countries where students wear school uniforms, our study...",
+      "stance": 1,
+      "url": "https://journalistsresource.org/education/school-uniforms-research-achievement/",
+      "credibility": 1,
+      "source": "CIKM 22"
+    },
+    {
+      "topic": "obesity",
+      "id": 43568,
+      "title": "Obesity Is A Choice Not A Disease | Dr Joe Today",
+      "text": "Obesity is NOT in any way, shape or form a disease. It is the end result of an energy imbalance over a period of time and is completely reversible by reversing the energy imbalance. Yes there are a host of individual issues sitting behind this but the final common pathway is the law of physics not biology.",
+      "stance": -3,
+      "url": "https://www.drjoetoday.com/obesity-is-a-choice-not-a-disease/",
+      "credibility": 1,
+      "source": "SIGIR 21"
+    },
+    {
+      "topic": "obesity",
+      "id": 95248,
+      "title": "Experts define obesity as a disease - Medical News Today",
+      "text": "In an accompanying comment letter, other experts highlight the arguments against classifying obesity as a disease, but eventually conclude that, on balance, the arguments in favor of such a ...",
+      "stance": 3,
+      "url": "https://www.medicalnewstoday.com/articles/317442",
+      "credibility": 1,
+      "source": "SIGIR 21"
+    },
+    {
+      "topic": "obesity",
+      "id": 52938,
+      "title": "Obesity isn't a disease. Here's why",
+      "text": "The Centre for Disease Control and Prevention has declared obesity “public enemy number one!” We must continue to pursue forward-thinking remedies for obesity and its significant medical, psychological and socio-economic consequences. The obesity-as-disease message might be a little like a Trojan horse. On the surface it’s an unexpected gift.",
+      "stance": -3,
+      "url": "https://www.doctorjeffreybrown.com/diet/a-year-ago-millions-of-north-americans-contracted-a-brand-new-disease-they-already-had-obesity/",
+      "credibility": 1,
+      "source": "SIGIR 21"
+    },
+    {
+      "topic": "obesity",
+      "id": 30001,
+      "title": "Jamie Oliver is wrong – obesity is not just about diet …",
+      "text": "Jamie Oliver is wrong – obesity is not just about diet Tanni Grey-Thompson. ... Obesity is a complex disease, influenced by a multitude of factors. Any strategy, policy call or ...",
+      "stance": 3,
+      "url": "https://www.theguardian.com/commentisfree/2018/apr/30/jamie-oliver-childhood-obesity-strategy-ignore-physical-activity-mental-health",
+      "credibility": 1,
+      "source": "SIGIR 21"
+    },
+    {
+      "topic": "obesity",
+      "id": 66888,
+      "title": "Obesity Not a Disease, AMA Council Says | MedPage Today",
+      "text": "Opinion Obesity The obesity-is-a-disease contingent also included the American Academy of Family Physicians and the American Association of Clinical Endocrinologists, who said evidence shows obesity is a ...",
+      "stance": -3,
+      "url": "https://www.spectator.co.uk/article/obesity-is-not-a-disease/",
+      "credibility": 1,
+      "source": "SIGIR 21"
+    },
+    {
+      "topic": "obesity",
+      "id": 76861,
+      "title": "Opinion: Obesity should be viewed as a disease | Montreal …",
+      "text": "But obesity is not just a condition that accelerates aging: obesity should be viewed as a disease that accelerates aging. Obesity clearly changes the function of body systems resulting in adverse ...",
+      "stance": 3,
+      "url": "https://montrealgazette.com/opinion/opinion-obesity-should-be-viewed-as-a-disease",
+      "credibility": 1,
+      "source": "SIGIR 21"
+    },
+    {
+      "topic": "obesity",
+      "id": 37275,
+      "title": "Perspective: Obesity is not a disease | Nature",
+      "text": "Obesity is an important contributor to the prevailing burden of chronic disease, lying on the causal pathway to much of what plagues modern society and its people — heart disease and diabetes to ...",
+      "stance": -2,
+      "url": "https://www.nature.com/articles/508S57a",
+      "credibility": 2,
+      "source": "SIGIR 21"
+    },
+    {
+      "topic": "obesity",
+      "id": 66880,
+      "title": "Why Is Obesity a Disease? - Obesity Medicine Association",
+      "text": "Is obesity a disease? For some, obesity as a disease invalidates the importance of discipline, proper nutrition, and exercise and enables individuals with obesity to escape responsibility. For others, obesity as a disease is a bridge to additional research, coordination of effective treatment, and increased resources for weight loss.",
+      "stance": 2,
+      "url": "https://obesitymedicine.org/why-is-obesity-a-disease/",
+      "credibility": 2,
+      "source": "SIGIR 21"
+    },
+    {
+      "topic": "obesity",
+      "id": 99675,
+      "title": "Obesity Is Not a Disease | Cato Institute",
+      "text": "Should the U.S. declare war on obesity, as we once did on cancer? If obesity truly is a disease, then over 78 million adults and 12 million children in America just got classified as sick.Recently the American Medical Association declared that it will consider <b>obesity</b> a <b>disease</b>. At first glance, it's a minor story, hardly worth mentioning, but in reality the AMA's move is a ...",
+      "stance": -2,
+      "url": "https://www.cato.org/publications/commentary/obesity-not-disease",
+      "credibility": 1,
+      "source": "SIGIR 21"
+    },
+    {
+      "topic": "obesity",
+      "id": 61477,
+      "title": "Why Obesity Is a Disease | HuffPost Life",
+      "text": "Why Obesity Is a Disease. Obesity is a chronic medical condition -- from a technical perspective, obesity fits any reasonable definition of disease. By. Scott Kahan, M.D. Medical Director, STOP Obesity Alliance, Director, NCWW. 05/19/2011 07:41am EDT | Updated July 19, 2011.",
+      "stance": 2,
+      "url": "https://www.huffpost.com/entry/obesity-disease_b_861087",
+      "credibility": 2,
+      "source": "SIGIR 21"
+    }
+  ]
+}

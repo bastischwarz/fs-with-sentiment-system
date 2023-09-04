@@ -1,0 +1,23 @@
+{
+  "propertyRights": {
+    "topic": "Should intellectual property rights exist?",
+    "queries": [
+      "arguments opposing Cell Phone Radiation Safety",
+      "arguments supporting Cell Phone Radiation Safety"
+    ]
+  },
+  "schoolUniforms": {
+    "topic": "Should students wear school uniform?",
+    "queries": [
+      "arguments opposing Obesity a Disease?",
+      "arguments supporting Obesity a Disease?"
+    ]
+  },
+  "obesity": {
+    "topic": "Is Obesity a disease?",
+    "queries": [
+      "arguments opposing Obesity a Disease?",
+      "arguments supporting Obesity a Disease?"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id               String            @id @default(auto()) @map("_id") @db.ObjectId
+  prolificId       String            @unique @map("prolific_id")
+  stance           String
+  logic            String?           @map("logic")
+  preTaskQuestion  PreTaskQuestion?
+  demographic      Demographic?
+  preStudyQuestion PreStudyQuestion?
+  postTaskQuestion PostTaskQuestion?
+  PageVisit        PageVisit?
+  createdAt        DateTime          @default(now()) @map("created_at")
+}
+
+model PreStudyQuestion {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String   @unique @map("user_id") @db.ObjectId
+  topic     String
+  stance    Int
+  createdAt DateTime @default(now()) @map("created_at")
+}
+
+model PreTaskQuestion {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  user        User     @relation(fields: [userId], references: [id])
+  userId      String   @unique @map("user_id") @db.ObjectId
+  topic       String
+  snippetId   Int      @map("snippet_id")
+  explanation String
+  knowledge   Int
+  createdAt   DateTime @default(now()) @map("created_at")
+}
+
+model PostTaskQuestion {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  user        User     @relation(fields: [userId], references: [id])
+  userId      String   @unique @map("user_id") @db.ObjectId
+  topic       String
+  stance      Int
+  explanation String
+  knowledgepost	Int
+  createdAt   DateTime @default(now()) @map("created_at")
+}
+
+model PageVisit {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String   @unique @map("user_id") @db.ObjectId
+  docId     Int      @map("doc_id")
+  position  Int
+  topic     String
+  url       String
+  createdAt DateTime @default(now()) @map("created_at")
+}
+
+model Demographic {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  user       User     @relation(fields: [userId], references: [id])
+  userId     String   @unique @map("user_id") @db.ObjectId
+  age        Int
+  gender     String
+  education  String
+  occupation String
+  attention  String
+  createdAt  DateTime @default(now()) @map("created_at")
+}
