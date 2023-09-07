@@ -65,9 +65,9 @@ const PostTask: NextPage = () => {
     const data = {
       userId,
       topic,
-      stance: clamp(stance),
+        stance: clamp(stance),
+        knowledgepost,
       explanation,
-      knowledgepost,
     };
 
     try {
@@ -87,11 +87,15 @@ const PostTask: NextPage = () => {
   if (preTaskQuestionError)
     return <div>Error: {preTaskQuestionError.message}</div>;
 
+
+    //</form>
+    //<form onSubmit={handleSubmit} className="space-y-6">
   return (
     <>
       <Head />
       <PageContainer className="space-y-8">
-        <h2>Post-Task Questionnaire</h2>
+      <h2>Post-Task Questionnaire</h2>
+      <form onSubmit={handleSubmit} className="space-y-6">
         <div className="space-y-2">
           <h3>
             Please state to which degree you agree or disagree with the
@@ -101,18 +105,37 @@ const PostTask: NextPage = () => {
             {queries[topic]["topic"]}
           </h3>
         </div>
-        <form onSubmit={handleSubmit} className="space-y-6">
           <div className="space-y-2">
             <LikertScale
               key={question?.topic}
-              name={question?.topic}
+              name="stancepost"
               minLabel="Strongly Disagree"
               maxLabel="Strongly Agree"
               numButtons={7}
               selected={stance}
               onChange={(e) => setStance(parseInt(e.target.value))}
             />
-          </div>
+                  </div>
+                  <div className="space-y-2">
+                      <h3>
+                          Please state how much you know about the
+                          following topic:
+                      </h3>
+                      <h3 className="p-4 bg-slate-200 rounded-md">
+                          {queries[topic]["topic"]}
+                      </h3>
+                  </div>
+                  <div className="space-y-2">
+                      <LikertScale
+                          key={question?.topic}
+                          name="knowledgepost"
+                          minLabel="No knowledge at all"
+                          maxLabel="Highly proficient"
+                          numButtons={7}
+                          selected={knowledgepost}
+                          onChange={(e) => setKnowledge(parseInt(e.target.value))}
+                      />
+                  </div>
           <div className="p-4 bg-slate-100 rounded-md border-2 border-slate-200">
             <h3 className="mb-2 font-semibold text-lg">
               In the beginning you gave the following explanation regarding your
@@ -139,35 +162,13 @@ const PostTask: NextPage = () => {
               onChange={(e) => setExplanation(e.target.value)}
             />
           </div>
-              </form>
-              <div className="space-y-2">
-                  <h3>
-                      Please state how much you know about the
-                      following topic:
-                  </h3>
-                  <h3 className="p-4 bg-slate-200 rounded-md">
-                      {queries[topic]["topic"]}
-                  </h3>
-              </div>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                  <div className="space-y-2">
-                      <LikertScale
-                          key={question?.topic}
-                          name={question?.topic}
-                          minLabel="No knowledge at all"
-                          maxLabel="Highly proficient"
-                          numButtons={7}
-                          selected={knowledgepost}
-                          onChange={(e) => setKnowledge(parseInt(e.target.value))}
-                      />
-                  </div>
                   <Button
                       isLoading={isSubmitting}
                       disabled={isSubmitting}
                       type="submit">
                       Continue
-                  </Button>
-              </form>
+              </Button>
+          </form>
       </PageContainer>
     </>
   );

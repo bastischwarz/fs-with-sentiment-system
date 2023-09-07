@@ -117,21 +117,32 @@ const PreTask: NextPage = () => {
   return (
     <>
       <Head />
-      <PageContainer className="space-y-8">
-        <h2>Pre-Task Questionnaire</h2>
-        <div className="space-y-2">
-         <h3>
-          You previously selected that you did have an opinion about
-          the following topic:
-         </h3>
-        <h3 className="p-4 bg-slate-200 rounded-md">
-         {queries[topic]["topic"]}
-        </h3>
-        </div>
-        <form onSubmit={handleSubmit} className="space-y-3">
+          <PageContainer className="space-y-8">
+          <h2>Pre-Task Questionnaire</h2>
+          <form onSubmit={handleSubmit} className="space-y-6">
+          <div className="space-y-2">
+           <h3>
+             Please state how much you know about the
+             following topic:
+           </h3>
+           <h3 className="p-4 bg-slate-200 rounded-md">
+            {queries[topic]["topic"]}
+           </h3>
+          </div>
+           <div className="space-y-2">
+            <LikertScale
+            key={question?.topic}
+            name={question?.topic}
+            minLabel="No knowledge at all"
+            maxLabel="Highly proficient"
+            numButtons={7}
+            selected={knowledge}
+            onChange={(e) => setKnowledge(parseInt(e.target.value))}
+            />
+           </div>
          <p>
           If you had to explain, which arguments for and against do you see in
-          the following topic. Please explain your thinking. <br />
+          the following topic: {queries[topic]["topic"]}. Please explain your thinking. <br />
           (It's ok if you don't know anything about the subject - you are not
           forced to write anything.)
          </p>
@@ -140,28 +151,6 @@ const PreTask: NextPage = () => {
            value={explanation}
            onChange={(e) => setExplanation(e.target.value)}
           />
-        </form>
-        <div className="space-y-2">
-          <h3>
-            Please state how much you know about the
-            following topic:
-          </h3>
-          <h3 className="p-4 bg-slate-200 rounded-md">
-            {queries[topic]["topic"]}
-          </h3>
-        </div>
-        <form onSubmit={handleSubmit} className="space-y-6">
-          <div className="space-y-2">
-            <LikertScale
-              key={question?.topic}
-              name={question?.topic}
-              minLabel="No knowledge at all"
-              maxLabel="Highly proficient"
-              numButtons={7}
-              selected={knowledge}
-              onChange={(e) => setKnowledge(parseInt(e.target.value))}
-            />
-           </div>
            <Button isLoading={isSubmitting} disabled={isSubmitting}>
              Continue
            </Button>
