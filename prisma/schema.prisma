@@ -48,6 +48,7 @@ model PostTaskQuestion {
   stance      Int
   explanation String
   knowledgepost	Int
+  attention   String
   createdAt   DateTime @default(now()) @map("created_at")
 }
 
@@ -70,6 +71,5 @@ model Demographic {
   gender     String
   education  String
   occupation String
-  attention  String
   createdAt  DateTime @default(now()) @map("created_at")
 }

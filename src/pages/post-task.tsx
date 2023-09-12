@@ -8,6 +8,7 @@ import { fetcher } from "../../lib/fetcher";
 import { preventBackButton } from "../../lib/prevent-back-button";
 import { createPostTaskQuestion } from "../api";
 import { Button, Head, LikertScale, PageContainer } from "../components";
+import { Input } from "../components/Input";
 
 const questions = [
   {
@@ -37,6 +38,7 @@ const PostTask: NextPage = () => {
   const topic = Cookies.get("topic");
   const router = useRouter();
   const question = questions.filter((q) => q.topic === topic)[0];
+  const [attention, setAttention] = useState<string>("");
 
   const { data: queries, error: queryError } = useSWR(
     () => `/api/queries`,
@@ -67,7 +69,8 @@ const PostTask: NextPage = () => {
       topic,
         stance: clamp(stance),
         knowledgepost,
-      explanation,
+        explanation,
+        attention,
     };
 
     try {
@@ -84,8 +87,7 @@ const PostTask: NextPage = () => {
 
   if (!queries || !preTaskQuestion) return <div>Loading...</div>;
   if (queryError) return <div>Error: {queryError.message}</div>;
-  if (preTaskQuestionError)
-    return <div>Error: {preTaskQuestionError.message}</div>;
+  if (preTaskQuestionError) return <div>Error: {preTaskQuestionError.message}</div>;
 
 
     //</form>
@@ -99,10 +101,7 @@ const PostTask: NextPage = () => {
         <div className="space-y-2">
           <h3>
             Please state to which degree you agree or disagree with the
-            following topic:
-          </h3>
-          <h3 className="p4 bg-slate-200 rounded-md">
-            {queries[topic]["topic"]}
+            topic: {queries[topic]["topic"]}
           </h3>
         </div>
           <div className="space-y-2">
@@ -115,27 +114,27 @@ const PostTask: NextPage = () => {
               selected={stance}
               onChange={(e) => setStance(parseInt(e.target.value))}
             />
-                  </div>
-                  <div className="space-y-2">
-                      <h3>
-                          Please state how much you know about the
-                          following topic:
-                      </h3>
-                      <h3 className="p-4 bg-slate-200 rounded-md">
-                          {queries[topic]["topic"]}
-                      </h3>
-                  </div>
-                  <div className="space-y-2">
-                      <LikertScale
-                          key={question?.topic}
-                          name="knowledgepost"
-                          minLabel="No knowledge at all"
-                          maxLabel="Highly proficient"
-                          numButtons={7}
-                          selected={knowledgepost}
-                          onChange={(e) => setKnowledge(parseInt(e.target.value))}
-                      />
-                  </div>
+           </div>
+         <div className="space-y-2">
+            <h3>
+               Please state how much you know about the
+               following topic:
+            </h3>
+            <h3 className="p-4 bg-slate-200 rounded-md">
+               {queries[topic]["topic"]}
+            </h3>
+            </div>
+            <div className="space-y-2">
+              <LikertScale
+                key={question?.topic}
+                name="knowledgepost"
+                minLabel="No knowledge at all"
+                maxLabel="Highly proficient"
+                numButtons={7}
+                selected={knowledgepost}
+                onChange={(e) => setKnowledge(parseInt(e.target.value))}
+              />
+            </div>
           <div className="p-4 bg-slate-100 rounded-md border-2 border-slate-200">
             <h3 className="mb-2 font-semibold text-lg">
               In the beginning you gave the following explanation regarding your
@@ -153,15 +152,26 @@ const PostTask: NextPage = () => {
           </div>
           <div className="space-y-2">
             <p>
-              After having informed yourself about the topic, are there any
-              reasons previously not mentioned? If so please explain them here:
+              Now that you have completed the search task, think of the information that you found
+              and list as many words or phrases as you can on the topic of the search task.
+              Please list all the information you knew before as well.
+              Please list only one word (or phrase) per line and end each line with a comma here:
             </p>
             <textarea
               className="block w-full p-3 shadow-sm border-slate-300 border rounded-md h-[200px] text-lg"
               value={explanation}
               onChange={(e) => setExplanation(e.target.value)}
             />
-          </div>
+                  </div>
+                  <Input
+                      type="text"
+                      name="attention"
+                      max={10}
+                      placeholder=""
+                      label="Type the word 'attention' here."
+                      value={attention}
+                      onChange={(e) => setAttention(e.target.value)}
+                  />
                   <Button
                       isLoading={isSubmitting}
                       disabled={isSubmitting}

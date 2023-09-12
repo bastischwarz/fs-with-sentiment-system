@@ -141,8 +141,10 @@ const PreTask: NextPage = () => {
             />
            </div>
          <p>
-          If you had to explain, which arguments for and against do you see in
-          the following topic: {queries[topic]["topic"]}. Please explain your thinking. <br />
+          Think of what you already know about "{queries[topic]["topic"]}" and list as many phrases or words as you can that come to your mind. 
+          For example, if you know about side effects please do not just type the phrase "side effects", but rather list the specific side effects you know about. 
+          Please list only one word or phrase per line and end each line with a comma.
+          <br />
           (It's ok if you don't know anything about the subject - you are not
           forced to write anything.)
          </p>

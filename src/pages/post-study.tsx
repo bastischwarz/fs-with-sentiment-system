@@ -15,7 +15,6 @@ interface Demographic {
   gender: string;
   education: string;
   occupation: string;
-  attention: string;
 }
 
 const PostStudy: NextPage = () => {
@@ -25,7 +24,6 @@ const PostStudy: NextPage = () => {
     gender: "",
     education: "",
     occupation: "",
-    attention: "",
   });
 
   const router = useRouter();
@@ -118,15 +116,6 @@ const PostStudy: NextPage = () => {
             label="What's your current occupation? (e.g.: if you are currently studying
               at a university insert 'Student')"
             value={demographic.occupation}
-            onChange={changeHandler}
-          />
-          <Input
-            type="text"
-            name="attention"
-            max={10}
-            placeholder=""
-            label="Type the word 'attention' here."
-            value={demographic.attention}
             onChange={changeHandler}
           />
           <Button
