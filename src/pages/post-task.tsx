@@ -154,7 +154,6 @@ const PostTask: NextPage = () => {
             <p>
               Now that you have completed the search task, think of the information that you found
               and list as many words or phrases as you can on the topic of the search task.
-              Please list all the information you knew before as well.
               Please list only one word (or phrase) per line and end each line with a comma here:
             </p>
             <textarea
