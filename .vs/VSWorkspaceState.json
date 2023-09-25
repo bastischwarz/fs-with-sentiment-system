@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
+    "",
+    "\\json",
+    "\\src\\pages",
     "\\src\\pages\\api"
   ],
+  "SelectedNode": "\\json\\snippets.json",
   "PreviewInSolutionExplorer": false
 }
