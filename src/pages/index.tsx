@@ -58,9 +58,8 @@ const Home: NextPage = () => {
         <section className="space-y-4">
           <p>
             You are invited to participate in the online study Investigating the Effects of Emotions in Search Engine Featured Snippet
-            initiated and conducted by Sebastian Schwarz and Dr. David
-            Elsweiler. The research is supervised by at the University of
-            Regensburg. Please note:
+            initiated and conducted by Sebastian Schwarz and Dr. David Elsweiler. The research is supervised by at the University of
+            Regensburg. Please note: 
           </p>
           <ul>
             <li>Your participation is entirely voluntary</li>

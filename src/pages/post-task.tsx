@@ -118,10 +118,7 @@ const PostTask: NextPage = () => {
          <div className="space-y-2">
             <h3>
                Please state how much you know about the
-               following topic:
-            </h3>
-            <h3 className="p-4 bg-slate-200 rounded-md">
-               {queries[topic]["topic"]}
+                          topic: {queries[topic]["topic"]}
             </h3>
             </div>
             <div className="space-y-2">
