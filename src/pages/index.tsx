@@ -57,9 +57,8 @@ const Home: NextPage = () => {
         <h2>Informed Consent of Participation</h2>
         <section className="space-y-4">
           <p>
-            You are invited to participate in the online study Influence of
-            Emotion in Featured Snippets on Knowledge Acquisition initiated and
-            conducted by Sebastian Schwarz and Dr. David
+            You are invited to participate in the online study Investigating the Effects of Emotions in Search Engine Featured Snippet
+            initiated and conducted by Sebastian Schwarz and Dr. David
             Elsweiler. The research is supervised by at the University of
             Regensburg. Please note:
           </p>

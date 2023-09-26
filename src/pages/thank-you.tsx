@@ -20,7 +20,7 @@ const ThankYou: NextPage = () => {
             To record that you have completed the task, please click on the
             button that takes you back to the Prolific platform.
           </p>
-          <Link href="https://app.prolific.co/submissions/complete?cc=CV7H9VDU">
+          <Link href="https://app.prolific.co/submissions/complete?cc=C2KY1LPI">
             <Button>Back to Prolific</Button>
           </Link>
         </div>
