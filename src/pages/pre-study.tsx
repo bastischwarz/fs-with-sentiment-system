@@ -34,6 +34,7 @@ const PreStudy = () => {
   const [question, setQuestion] = useState<LikertQuestion[]>(questions);
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
   const userId = Cookies.get("userId");
+  const logic = Cookies.get("neutral")
 
   preventBackButton();
 
@@ -56,12 +57,13 @@ const PreStudy = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-//q.topic
+//q.topic , logic hinzugefügt, stance: clamp(q.value),
 const data = question.map((q) => {
   return {
       userId,
       topic: "schoolUniforms",
-      stance: clamp(q.value),
+      stance: "pos",
+      logic: "neutral"
   };
 });
 
