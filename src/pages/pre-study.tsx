@@ -63,7 +63,6 @@ const data = question.map((q) => {
       userId,
       topic: "schoolUniforms",
       stance: clamp(q.value),
-      logic: "neutral",
   };
 });
 
