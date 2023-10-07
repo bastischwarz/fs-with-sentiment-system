@@ -56,14 +56,14 @@ const PreStudy = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-
-    const data = question.map((q) => {
-      return {
-        userId,
-        topic: q.topic,
-        stance: clamp(q.value),
-      };
-    });
+//q.topic
+const data = question.map((q) => {
+  return {
+      userId,
+      topic: "schoolUniforms",
+      stance: clamp(q.value),
+  };
+});
 
     // Get all stances
     const anyStances = data.filter((q) => q.stance >= -3 && q.stance <= 3);

@@ -35,10 +35,11 @@ const SERP = () => {
   const isScrolled = scroll >= 30;
   const router = useRouter();
 
-  // Get cookies
+  // Get cookies hinzugefügt getlogic
   const userId = Cookies.get("userId");
   const topic = Cookies.get("topic");
   const stance = Cookies.get("stance");
+  const logic = Cookies.get("logic");
   const snippetId = Cookies.get("snippetId");
 
   preventBackButton();
@@ -86,10 +87,11 @@ const SERP = () => {
         regularSnippets: IRegularSnippet[];
       } = snippets;
 
-      // Get snippets based on current topic
-      let alternateSnippets = regularSnippets?.filter(
-        (snippet) => snippet.topic === topic
-      );
+      // Get snippets based on current topic and sentiment hinzugefügt
+let alternateSnippets = regularSnippets?.filter(
+  ((snippet) => snippet.topic === topic)
+  && ((snippet) => snippet.logic === logic) 
+);
 
       // Alternate ordering of regularSnippets
       if (stance === "pos") {
