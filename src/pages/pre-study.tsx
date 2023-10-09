@@ -34,7 +34,7 @@ const PreStudy = () => {
   const [question, setQuestion] = useState<LikertQuestion[]>(questions);
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
   const userId = Cookies.get("userId");
-  const logic = Cookies.get("neutral")
+  //const logic = Cookies.get("neutral")
 
   preventBackButton();
 
@@ -61,7 +61,7 @@ const PreStudy = () => {
 const data = question.map((q) => {
   return {
       userId,
-      topic: "schoolUniforms",
+      topic: q.topic,
       stance: clamp(q.value),
   };
 });
