@@ -39,9 +39,9 @@ const SERP = () => {
 
   const userId = Cookies.get("userId");
   const combination = Cookies.get("combination");
-  const topic = combination.split("-")[1];
-  const stance = combination.split("-")[0];
-  const logic = combination.split("-")[2];
+  const topic = combination.toString().split("-")[1];
+  const stance = combination.toString().split("-")[0];
+  const logic = combination.toString().split("-")[2];
   const snippetId = Cookies.get("snippetId");
 
   preventBackButton();
