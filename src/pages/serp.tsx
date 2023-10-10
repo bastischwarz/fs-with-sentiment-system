@@ -36,10 +36,12 @@ const SERP = () => {
   const router = useRouter();
 
   // Get cookies hinzugefügt getlogic
+
   const userId = Cookies.get("userId");
-  const topic = Cookies.get("topic");
-  const stance = Cookies.get("stance");
-  const logic = Cookies.get("logic");
+  const combination = Cookies.get("combination");
+  const topic = combination.split("-")[1];
+  const stance = combination.split("-")[0];
+  const logic = combination.split("-")[2];
   const snippetId = Cookies.get("snippetId");
 
   preventBackButton();

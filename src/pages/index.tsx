@@ -10,8 +10,8 @@ import Cookies from "js-cookie";
 import { getRandomInt } from "../../lib/rand-int";
 
 // change this for stance ["pos", "neg"];
-const possibleStance = ["pos"];
-const possibleSentiment = ["neutral"]
+const possibleCombination = ["pos-schoolUniforms-neutral"];
+//const possibleSentiment = ["neutral"]
 
 const Home: NextPage = () => {
   const [acceptedConsent, setAcceptedConsent] = useState(false);
@@ -34,11 +34,11 @@ const Home: NextPage = () => {
 
     //im try block neue Const logíc
 try {
-  const stance = possibleStance[getRandomInt(0, 1)];
-    Cookies.set("stance", stance);
-    const logic = possibleSentiment[getRandomInt(0, 1)];
-    Cookies.set("logic", logic);
-  const user = await createUser(prolificId, stance);
+  const combination = possibleCombination[getRandomInt(0, possibleCombination.length - 1)];
+  Cookies.set("combination", combination);
+    //const logic = possibleSentiment[getRandomInt(0, 1)];
+    //Cookies.set("logic", logic);
+  const user = await createUser(prolificId, combination);
   Cookies.set("userId", user.id);
 
       // Redirect to the next page
