@@ -36,7 +36,7 @@ const Home: NextPage = () => {
 try {
   const combination = possibleCombination[getRandomInt(0, possibleCombination.length - 1)];
   Cookies.set("combination", combination);
-    //const logic = possibleSentiment[getRandomInt(0, 1)];
+    //const stance/logic = possibleSentiment[getRandomInt(0, 1)];
     //Cookies.set("logic", logic);
   const user = await createUser(prolificId, combination);
   Cookies.set("userId", user.id);

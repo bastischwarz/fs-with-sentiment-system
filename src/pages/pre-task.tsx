@@ -32,9 +32,10 @@ const PreTask: NextPage = () => {
   const [explanation, setExplanation] = useState<string>("");
   const [snippetId, setSnippetId] = useState<number>();
   const [knowledge, setKnowledge] = useState<number>();
+  const combination = String(Cookies.get("combination"));
   const userId = Cookies.get("userId");
-  const topic = Cookies.get("topic");
-  const stance = Cookies.get("stance");
+  const topic = combination.split("-")[1];
+  const stance = combination.split("-")[0];
   const router = useRouter();
   //new
   const question = questions.filter((q) => q.topic === topic)[0];
