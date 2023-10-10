@@ -38,11 +38,10 @@ const SERP = () => {
   // Get cookies hinzugefügt getlogic
 
   const userId = Cookies.get("userId");
-  const combination = Cookies.get("combination");
-  const combi= combination.toString();
-  const topic = combi.split("-")[1];
-  const stance = combi.split("-")[0];
-  const logic = combi.split("-")[2];
+  const combination = String(Cookies.get("combination"));
+  const topic = combination.split("-")[1];
+  const stance = combination.split("-")[0];
+  const logic = combination.split("-")[2];
   const snippetId = Cookies.get("snippetId");
 
   preventBackButton();
