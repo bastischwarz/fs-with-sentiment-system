@@ -10,8 +10,8 @@ import Cookies from "js-cookie";
 import { getRandomInt } from "../../lib/rand-int";
 
 // change this for stance ["pos", "neg"];
-const possibleCombination = ["pos-schoolUniforms-neutral"];
-//const possibleSentiment = ["neutral","neg-schoolUniforms-positive","pos-obesity-negative","neg-obesity-negative","neg-propertyRights-positive","pos-propertyRights-positive"]
+const possibleCombination = ["pos-schoolUniforms-neutral","neg-schoolUniforms-positive","pos-obesity-negative","neg-obesity-negative","neg-propertyRights-positive","pos-propertyRights-positive"];
+//const possibleSentiment = ["neutral"]
 
 const Home: NextPage = () => {
   const [acceptedConsent, setAcceptedConsent] = useState(false);
