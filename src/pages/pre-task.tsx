@@ -34,8 +34,8 @@ const PreTask: NextPage = () => {
   const [knowledge, setKnowledge] = useState<number>();
   const combination = String(Cookies.get("combination"));
   const userId = Cookies.get("userId");
-  const stance = combination.split("-")[0];
   const topic = combination.split("-")[1];
+  const stance = combination.split("-")[0];
   const logic = combination.split("-")[2];
   const router = useRouter();
   //new
