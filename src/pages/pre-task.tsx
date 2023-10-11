@@ -88,8 +88,9 @@ const PreTask: NextPage = () => {
         (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0) &&
         snippet.topic === topic
     ))[randomIndex];
-
-    Cookies.set("snippetId", featuredSnippet?.id);
+    //neu hardcode
+    const featuredSnippetId = "935"
+    Cookies.set("snippetId", featuredSnippetId);
 
     /*if(logic === "neutral" && stance === "pos" && topic === "schoolUniforms"){
      Cookies.set("snippetId", featuredSnippet?.id);}
@@ -107,7 +108,7 @@ const PreTask: NextPage = () => {
       topic,
       logic,
       stance,
-      snippetId: featuredSnippet?.id,
+      //snippetId: featuredSnippet?.id,
       explanation: explanationWithBreaks,
       knowledge,
     };
