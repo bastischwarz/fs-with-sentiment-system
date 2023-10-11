@@ -8,7 +8,7 @@ import { preventBackButton } from "../../lib/prevent-back-button";
 import { getRandomInt } from "../../lib/rand-int";
 import { createPreTaskQuestion } from "../api";
 import { Button, Head, LikertScale, PageContainer } from "../components";
-//new
+//new to ask participants for their knowledge in hmtl part
 const questions = [
   {
     topic: "schoolUniforms",
@@ -103,7 +103,7 @@ const PreTask: NextPage = () => {
     const data = {
       userId,
       topic,
-      snippetId: "935",
+      snippetId: featuredSnippet?.id,
       explanation: explanationWithBreaks,
       knowledge,
     };
