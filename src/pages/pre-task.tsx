@@ -36,6 +36,7 @@ const PreTask: NextPage = () => {
   const userId = Cookies.get("userId");
   const topic = combination.split("-")[1];
   const stance = combination.split("-")[0];
+  const logic = combination.split("-")[2];
   const router = useRouter();
   //new
   const question = questions.filter((q) => q.topic === topic)[0];
@@ -88,7 +89,13 @@ const PreTask: NextPage = () => {
         snippet.topic === topic
     ))[randomIndex];
 
-    Cookies.set("snippetId", featuredSnippet?.id);
+    if(logic === "neutral" && stance === "pos" && topic === "schoolUniforms"){
+     Cookies.set("snippetId", featuredSnippet.id === "935");}
+    else if(logic === "postitive") {
+     Cookies.set("snippetId", featuredSnippet?.id);}
+    else {
+     Cookies.set("snippetId", featuredSnippet?.id);  
+    }
 
     // Replace new lines of explanation with actual <br> tags
     const explanationWithBreaks = explanation.replace(/\n/g, "<br>");
@@ -96,7 +103,7 @@ const PreTask: NextPage = () => {
     const data = {
       userId,
       topic,
-      snippetId: featuredSnippet?.id,
+      snippetId: featuredSnippet.id,
       explanation: explanationWithBreaks,
       knowledge,
     };
