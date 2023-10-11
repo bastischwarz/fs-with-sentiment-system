@@ -89,13 +89,15 @@ const PreTask: NextPage = () => {
         snippet.topic === topic
     ))[randomIndex];
 
-    if(logic === "neutral" && stance === "pos" && topic === "schoolUniforms"){
+    Cookies.set("snippetId", featuredSnippet?.id);
+
+    /*if(logic === "neutral" && stance === "pos" && topic === "schoolUniforms"){
      Cookies.set("snippetId", featuredSnippet?.id);}
     else if(logic === "postitive") {
      Cookies.set("snippetId", featuredSnippet?.id);}
     else {
      Cookies.set("snippetId", featuredSnippet?.id);  
-    }
+    }*/
 
     // Replace new lines of explanation with actual <br> tags
     const explanationWithBreaks = explanation.replace(/\n/g, "<br>");
@@ -103,6 +105,8 @@ const PreTask: NextPage = () => {
     const data = {
       userId,
       topic,
+      logic,
+      stance,
       snippetId: featuredSnippet?.id,
       explanation: explanationWithBreaks,
       knowledge,
