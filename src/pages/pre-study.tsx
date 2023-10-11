@@ -34,7 +34,10 @@ const PreStudy = () => {
   const [question, setQuestion] = useState<LikertQuestion[]>(questions);
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
   const userId = Cookies.get("userId");
-  //const logic = Cookies.get("neutral")
+
+  //new
+  const combination = Cookies.get("combination");
+  Cookies.set("combination", combination);
 
   preventBackButton();
 
@@ -81,9 +84,9 @@ const data = question.map((q) => {
       // Add randomAnyStance to the cookie
       //const randomAnyStance = anyStances[Math.floor(Math.random() * anyStances.length)];
       //Cookies.set("topic", randomAnyStance.topic);
-      const combination = String(Cookies.get("combination"))
-      const topic = combination.split("-")[1];
-      Cookies.set("topic", topic)
+      //const combination = String(Cookies.get("combination"))
+      //const topic = combination.split("-")[1];
+      //Cookies.set("topic", topic)
 
       router.push("/pre-task");
     } catch (e) {
