@@ -82,15 +82,16 @@ const PreTask: NextPage = () => {
     setIsSubmitting(true);
 
     const { featuredSnippets } = snippets;
+
     const randomIndex = getRandomInt(0, 1);
     const featuredSnippet = (featuredSnippets?.filter(
       (snippet) =>
         (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0) &&
-        snippet.topic === topic
+        snippet.topic === topic && snippet.logic === logic
     ))[randomIndex];
     //neu hardcode
-    const featuredSnippetId = "935"
-    Cookies.set("snippetId", featuredSnippetId);
+    //const featuredSnippetId = "935"
+    Cookies.set("snippetId", featuredSnippet?.id);
 
     /*if(logic === "neutral" && stance === "pos" && topic === "schoolUniforms"){
      Cookies.set("snippetId", featuredSnippet?.id);}
@@ -108,7 +109,7 @@ const PreTask: NextPage = () => {
       topic,
       logic,
       stance,
-      snippetId: featuredSnippetId,
+      snippetId: featuredSnippet?.id,
       explanation: explanationWithBreaks,
       knowledge,
     };
