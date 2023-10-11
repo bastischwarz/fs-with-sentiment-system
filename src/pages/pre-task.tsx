@@ -83,13 +83,12 @@ const PreTask: NextPage = () => {
 
     const { featuredSnippets } = snippets;
 
-    //const randomIndex = getRandomInt(0, 1);
+    const randomIndex = getRandomInt(0, 1);
     const featuredSnippet = (featuredSnippets?.filter(
       (snippet) =>
         (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0) &&
         snippet.topic === topic && snippet.logic === logic
-    ));
-    //[randomIndex]
+    ))[randomIndex];
     //neu hardcode
     //const featuredSnippetId = "935"
     Cookies.set("snippetId", featuredSnippet?.id);
