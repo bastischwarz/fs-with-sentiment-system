@@ -107,8 +107,6 @@ const PreTask: NextPage = () => {
     const data = {
       userId,
       topic,
-      logic,
-      stance,
       snippetId: featuredSnippet?.id,
       explanation: explanationWithBreaks,
       knowledge,
