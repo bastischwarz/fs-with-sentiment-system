@@ -36,8 +36,8 @@ const PreStudy = () => {
   const userId = Cookies.get("userId");
 
   //new
-  const combination = Cookies.get("combination");
-  Cookies.set("combination", combination);
+  //const combination = Cookies.get("combination");
+  //Cookies.set("combination", combination);
 
   preventBackButton();
 
