@@ -90,7 +90,7 @@ const PreTask: NextPage = () => {
     ))[randomIndex];
 
     if(logic === "neutral" && stance === "pos" && topic === "schoolUniforms"){
-     Cookies.set("snippetId", featuredSnippet.id === "935");}
+     Cookies.set("snippetId", featuredSnippet?.id);}
     else if(logic === "postitive") {
      Cookies.set("snippetId", featuredSnippet?.id);}
     else {
@@ -103,7 +103,7 @@ const PreTask: NextPage = () => {
     const data = {
       userId,
       topic,
-      snippetId: featuredSnippet.id,
+      snippetId: "935",
       explanation: explanationWithBreaks,
       knowledge,
     };
