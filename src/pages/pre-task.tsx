@@ -26,7 +26,7 @@ const questions = [
     value: null,
   },
 ];
-//test
+
 const PreTask: NextPage = () => {
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
   const [explanation, setExplanation] = useState<string>("");
@@ -34,12 +34,12 @@ const PreTask: NextPage = () => {
   const [knowledge, setKnowledge] = useState<number>();
   const combination = String(Cookies.get("combination"));
   const userId = Cookies.get("userId");
-  const topic = combination.split("-")[1];
   const stance = combination.split("-")[0];
+  const topicCombi = combination.split("-")[1];
   const logic = combination.split("-")[2];
   const router = useRouter();
   //new
-  const question = questions.filter((q) => q.topic === topic)[0];
+  const question = questions.filter((q) => q.topic === topicCombi)[0];
 
   preventBackButton();
 
@@ -87,7 +87,7 @@ const PreTask: NextPage = () => {
     const featuredSnippet = (featuredSnippets?.filter(
       (snippet) =>
         (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0) &&
-        snippet.topic === topic && snippet.logic === logic
+        snippet.topic === topicCombi && snippet.logic === logic
     ))[randomIndex];
     //neu hardcode
     //const featuredSnippetId = "935"
@@ -106,7 +106,7 @@ const PreTask: NextPage = () => {
 
     const data = {
       userId,
-      topic,
+      topicCombi,
       snippetId: featuredSnippet?.id,
       explanation: explanationWithBreaks,
       knowledge,
@@ -138,7 +138,7 @@ const PreTask: NextPage = () => {
              following topic:
            </h3>
            <h3 className="p-4 bg-slate-200 rounded-md">
-            {queries[topic]["topic"]}
+            {queries[topicCombi]["topic"]}
            </h3>
           </div>
            <div className="space-y-2">
@@ -153,7 +153,7 @@ const PreTask: NextPage = () => {
             />
            </div>
          <p>
-          Think of what you already know about "{queries[topic]["topic"]}" and list as many phrases or words as you can that come to your mind. 
+          Think of what you already know about "{queries[topicCombi]["topic"]}" and list as many phrases or words as you can that come to your mind. 
           For example, if you know about side effects please do not just type the phrase "side effects", but rather list the specific side effects you know about. 
           Please list only one word or phrase per line and end each line with a comma.
           <br />
