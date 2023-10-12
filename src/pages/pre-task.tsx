@@ -89,10 +89,9 @@ const PreTask: NextPage = () => {
     //const randomIndex = getRandomInt(0, 1);
     const featuredSnippet = (featuredSnippets?.filter(
       (snippet) =>
-        (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0) &&
-        snippet.topic === topicCombi && snippet.logic === logic
+        (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0)
     ));
-
+      // && snippet.topic === topicCombi && snippet.logic === logic
     /*const featuredSnippet = (featuredSnippets?.filter(
       (snippet) =>
     snippet.stance === "pos" && logic === "neutral" && topicCombi === "schoolUniforms" ? "935" :
