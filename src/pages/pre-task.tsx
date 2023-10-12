@@ -114,8 +114,8 @@ const PreTask: NextPage = () => {
     console.log(logic);
     //console.log(snippet.topic);
     
-    console.log("featuredsnippet.id",featuredSnippet.id);
-    console.log("featuredsnippet.id 2",featuredSnippet?.id);
+    console.log("featuredsnippet.id",featuredSnippet[0].id);
+    console.log("featuredsnippet.id 2",featuredSnippet[0]?.id);
     //[randomIndex]
     //neu hardcode
     //const featuredSnippetId = "935"
