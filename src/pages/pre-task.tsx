@@ -5,9 +5,10 @@ import { useEffect, useState } from "react";
 import useSWR from "swr";
 import { fetcher } from "../../lib/fetcher";
 import { preventBackButton } from "../../lib/prevent-back-button";
-import { getRandomInt } from "../../lib/rand-int";
+//import { getRandomInt } from "../../lib/rand-int";
 import { createPreTaskQuestion } from "../api";
 import { Button, Head, LikertScale, PageContainer } from "../components";
+//import { FeaturedSnippet } from "../components";
 //new to ask participants for their knowledge in hmtl part
 const questions = [
   {
@@ -88,7 +89,7 @@ const PreTask: NextPage = () => {
     //const randomIndex = getRandomInt(0, 1);
     const featuredSnippet = (featuredSnippets?.filter(
       (snippet) =>
-        (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0) &&
+        (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0) ||
         snippet.topic === topicCombi && snippet.logic === logic
     ));
 
