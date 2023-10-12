@@ -86,11 +86,23 @@ const PreTask: NextPage = () => {
     const { featuredSnippets } = snippets;
 
     //const randomIndex = getRandomInt(0, 1);
-    const featuredSnippet = (featuredSnippets?.filter(
+    /*const featuredSnippet = (featuredSnippets?.filter(
       (snippet) =>
         (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0) &&
         snippet.topic === topicCombi && snippet.logic === logic
+    ));*/
+
+    const featuredSnippet = (featuredSnippets?.filter(
+      (snippet) =>
+    snippet.stance === "pos" && logic === "neutral" && topicCombi === "schoolUniforms" ? "935" :
+    snippet.stance === "neg" && logic === "positive" && topicCombi === "schoolUniforms" ? "509" :
+    snippet.stance === "pos" && logic === "negative" && topicCombi === "obesity" ? "76861" :
+    snippet.stance === "neg" && logic === "negative" && topicCombi === "obesity" ? "66888" :
+    snippet.stance === "neg" && logic === "positive" && topicCombi === "propertyRights" ? "146" :
+    snippet.stance === "pos" && logic === "positive" && topicCombi === "propertyRights" ? "879" :
+    "undefined"
     ));
+
     console.log(topicCombi);
     console.log(stance);
     console.log(logic);
@@ -99,7 +111,7 @@ const PreTask: NextPage = () => {
     //neu hardcode
     //const featuredSnippetId = "935"
     Cookies.set("snippetId", featuredSnippet?.id);
-
+    
     /*if(logic === "neutral" && stance === "pos" && topic === "schoolUniforms"){
      Cookies.set("snippetId", featuredSnippet?.id);}
     else if(logic === "postitive") {
