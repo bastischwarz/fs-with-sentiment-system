@@ -85,9 +85,9 @@ const PreTask: NextPage = () => {
     setIsSubmitting(true);
 
     const { featuredSnippets } = snippets;
-    console.log(snippets);
+    console.log("all snippets", snippets);
     
-    console.log(featuredSnippets);
+    console.log("list of FS",featuredSnippets);
     
     //const randomIndex = getRandomInt(0, 1);
     const featuredSnippet = (featuredSnippets?.filter(
@@ -95,7 +95,7 @@ const PreTask: NextPage = () => {
         (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0) && topicCombi == snippet.topic && logic == snippet.logic,
         ));
 
-    console.log(featuredSnippet);
+    console.log("featuredSnippet",featuredSnippet);
     
       // && snippet.topic === topicCombi && snippet.logic === logic
     /*const featuredSnippet = (featuredSnippets?.filter(
@@ -114,7 +114,8 @@ const PreTask: NextPage = () => {
     console.log(logic);
     //console.log(snippet.topic);
     
-    console.log(featuredSnippet.id);
+    console.log("featuredsnippet.id",featuredSnippet.id);
+    console.log("featuredsnippet.id 2",featuredSnippet?.id);
     //[randomIndex]
     //neu hardcode
     //const featuredSnippetId = "935"
