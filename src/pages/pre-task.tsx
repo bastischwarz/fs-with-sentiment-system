@@ -119,7 +119,7 @@ const PreTask: NextPage = () => {
     //[randomIndex]
     //neu hardcode
     //const featuredSnippetId = "935"
-    Cookies.set("snippetId", featuredSnippet?.id);
+    Cookies.set("snippetId", featuredSnippet[0]?.id);
     
     /*if(logic === "neutral" && stance === "pos" && topic === "schoolUniforms"){
      Cookies.set("snippetId", featuredSnippet?.id);}
