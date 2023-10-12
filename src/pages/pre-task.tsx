@@ -86,13 +86,13 @@ const PreTask: NextPage = () => {
     const { featuredSnippets } = snippets;
 
     //const randomIndex = getRandomInt(0, 1);
-    /*const featuredSnippet = (featuredSnippets?.filter(
+    const featuredSnippet = (featuredSnippets?.filter(
       (snippet) =>
         (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0) &&
         snippet.topic === topicCombi && snippet.logic === logic
-    ));*/
+    ));
 
-    const featuredSnippet = (featuredSnippets?.filter(
+    /*const featuredSnippet = (featuredSnippets?.filter(
       (snippet) =>
     snippet.stance === "pos" && logic === "neutral" && topicCombi === "schoolUniforms" ? "935" :
     snippet.stance === "neg" && logic === "positive" && topicCombi === "schoolUniforms" ? "509" :
@@ -101,7 +101,7 @@ const PreTask: NextPage = () => {
     snippet.stance === "neg" && logic === "positive" && topicCombi === "propertyRights" ? "146" :
     snippet.stance === "pos" && logic === "positive" && topicCombi === "propertyRights" ? "879" :
     "undefined"
-    ));
+    ));*/
 
     console.log(topicCombi);
     console.log(stance);
