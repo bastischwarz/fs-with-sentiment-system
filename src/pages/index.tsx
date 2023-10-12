@@ -41,7 +41,8 @@ try {
   Cookies.set("logic", stance);
   const user = await createUser(prolificId, combination);
   Cookies.set("userId", user.id);
-
+  console.log(combination);
+  
       // Redirect to the next page
       router.push("/pre-study");
     } catch (e) {

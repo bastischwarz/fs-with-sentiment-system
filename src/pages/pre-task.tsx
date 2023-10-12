@@ -39,6 +39,8 @@ const PreTask: NextPage = () => {
   const logic = combination.split("-")[2];
   const router = useRouter();
   //new
+  console.log(combination);
+  
   const question = questions.filter((q) => q.topic === topicCombi)[0];
 
   preventBackButton();
@@ -89,6 +91,11 @@ const PreTask: NextPage = () => {
         (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0) &&
         snippet.topic === topicCombi && snippet.logic === logic
     ))[randomIndex];
+    console.log(topicCombi);
+    console.log(stance);
+    console.log(logic);
+    console.log(featuredSnippet.id);
+    
     //neu hardcode
     //const featuredSnippetId = "935"
     Cookies.set("snippetId", featuredSnippet?.id);

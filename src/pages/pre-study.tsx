@@ -84,7 +84,9 @@ const data = question.map((q) => {
       const combination = String(Cookies.get("combination"))
       const topic = combination.split("-")[1];
       Cookies.set("topic", topic)
-
+      console.log(combination);
+      console.log(router.push("/pre-task"));
+      
       router.push("/pre-task");
     } catch (e) {
       console.log(e);
