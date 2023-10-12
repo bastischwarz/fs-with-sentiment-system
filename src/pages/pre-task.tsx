@@ -85,7 +85,10 @@ const PreTask: NextPage = () => {
     setIsSubmitting(true);
 
     const { featuredSnippets } = snippets;
-
+    console.log(snippets);
+    
+    console.log(featuredSnippets);
+    
     //const randomIndex = getRandomInt(0, 1);
     const featuredSnippet = (featuredSnippets?.filter(
       (snippet: { stance: number; topic: string; logic: string; }) =>
@@ -108,7 +111,7 @@ const PreTask: NextPage = () => {
     console.log(topicCombi);
     console.log(stance);
     console.log(logic);
-    console.log(snippet.topic);
+    //console.log(snippet.topic);
     
     console.log(featuredSnippet?.id);
     //[randomIndex]
