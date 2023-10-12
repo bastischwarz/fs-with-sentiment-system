@@ -95,7 +95,8 @@ const PreTask: NextPage = () => {
         (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0) && topicCombi == snippet.topic && logic == snippet.logic,
         ));
 
-
+    console.log(featuredSnippet);
+    
       // && snippet.topic === topicCombi && snippet.logic === logic
     /*const featuredSnippet = (featuredSnippets?.filter(
       (snippet) =>
