@@ -88,8 +88,9 @@ const PreTask: NextPage = () => {
 
     //const randomIndex = getRandomInt(0, 1);
     const featuredSnippet = (featuredSnippets?.filter(
-      (snippet) =>
-        (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0) && topicCombi == snippet.topic && logic == snippet.logic));
+      (snippet: { stance: number; topic: string; logic: string; }) =>
+        (stance === "pos" ? snippet.stance > 0 : snippet.stance < 0) && topicCombi == snippet.topic && logic == snippet.logic,
+        ));
 
 
       // && snippet.topic === topicCombi && snippet.logic === logic
@@ -107,6 +108,8 @@ const PreTask: NextPage = () => {
     console.log(topicCombi);
     console.log(stance);
     console.log(logic);
+    console.log(snippet.topic);
+    
     console.log(featuredSnippet?.id);
     //[randomIndex]
     //neu hardcode
